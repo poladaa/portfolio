@@ -1,0 +1,303 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Bai Jamjuree'
+  sans-serif;
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+header p {
+  font-size: 2rem;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.buttons1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.buttons1 a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1.8rem 4rem;
+  color: #fff;
+  border-radius: 5rem;
+  font-weight: 400;
+  transition: 0.30s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  scale: 1.03;
+}
+
+.buttons1 a:first-child{
+  background-color: hsl(171, 66%, 44%);
+}
+
+.buttons1 a:last-child{
+  background-color: hsl(233, 100%, 69%);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+/*  */
+.sec1 {
+  margin: 0 auto;
+  align-items: center;
+}
+
+.main-text {
+   display: flex;
+  flex-direction: column; 
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.main-text h1 {
+  font-size: 5rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.main-text p {
+  font-size: 2rem;
+  border-bottom: 2px dashed hsl(171, 66%, 44%);
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.about {
+  width: 110rem;
+  height: 70rem;
+  display: flex;
+  align-items: top;
+  /* justify-items: left; */
+  gap: 7rem;
+  margin-bottom: 9.6rem;
+}
+
+.comp {
+  text-align: left;
+}
+
+.abt-text {
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+}
+
+.quick {
+  margin: 2rem;
+}
+
+.quick h3 {
+  font-size: 2.6rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 700;
+}
+
+.quick p {
+  font-size: 1.8rem;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.4;
+}
+
+.extra {
+  width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 9rem;
+}
+.extra-text {
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.extra-text h1 {
+  font-size: 3rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 700;
+}
+.extra-text p {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+
+.extra-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.super {
+  width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4.6rem;
+}
+.super h1 {
+  font-size: 3rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.super p {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  border-bottom: 3px dashed hsl(233, 100%, 69%);
+}
+
+/*  */
+.lists {
+  width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center; 
+  gap: 3rem;
+  justify-content: center;
+  margin-bottom:9.8rem
+}
+
+.list-photo img {
+  margin-bottom: 1rem;
+}
+
+.header2 {
+  font-size: 3rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.blabla {
+  font-size: 2rem;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.4;
+}
+
+.partniors {
+  width: 100rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  margin: 0 auto;
+}
+
+.end {
+  width: 50rem;
+  height: 40rem;
+  margin: 0 auto;
+  margin-top: 9.6rem;
+}
+.end-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column ;
+  margin-bottom: 3rem;
+}
+
+.end-text h1 {
+  font-size: 3.6rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.end-text p {
+  font-size: 2rem;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+
+footer .foot {
+  width: auto;
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 20% 70% 10%;
+  background-color: hsl(210, 10%, 33%);
+  align-items: center;
+}
+
+.logo5 img {
+  width: 5rem;
+  height: 5rem;
+  margin: 0 7rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: hsl(201, 11%, 66%);
+  transition: all 0.5s;
+}
+
+.nav a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.social-links a {
+  color: hsl(201, 11%, 66%);
+  transition: all 1s;
+  padding: 0 0.5rem;
+}
+
+.social-links a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+ion-icon {
+  width: 3rem;
+  height: 3rem;
+}
